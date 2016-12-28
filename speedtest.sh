@@ -1,7 +1,7 @@
 #!/bin/bash
 ip=$( wget -qO- ipv4.icanhazip.com )
 echo ""
-echo "This script will download 1GB files from all GigeNET locations"
+echo "This script will download 100MB test files from all GigeNET locations"
 echo ""
 echo "Your Public IPv4: $ip"
 echo ""
