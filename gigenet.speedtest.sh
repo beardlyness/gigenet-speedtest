@@ -47,7 +47,7 @@
                    clear
                    echo "GigeNET | Los Angeles, CA | 100MB Test | http://lax.lg.gigenet.com"
                    lax=$( wget -O /dev/null http://speedtest.lax.gigenet.com/100mb.img 2>&1 | awk '/\/dev\/null/ {speed=$3 $4} END {gsub(/\(|\)/,"",speed); print speed}' )
-                   echo "Download Speed: $chi"
+                   echo "Download Speed: $lax"
                    ;;
                    3)
                    clear
@@ -77,7 +77,7 @@
                    clear
                    echo "GigeNET | Los Angeles, CA | 1GB/1000MB Test | http://lax.lg.gigenet.com"
                    lax=$( wget -O /dev/null http://speedtest.lax.gigenet.com/1gb.img 2>&1 | awk '/\/dev\/null/ {speed=$3 $4} END {gsub(/\(|\)/,"",speed); print speed}' )
-                   echo "Download Speed: $chi"
+                   echo "Download Speed: $lax"
                    ;;
                    3)
                    clear
